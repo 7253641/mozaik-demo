@@ -6,6 +6,8 @@ var config = {
 
     host: '0.0.0.0',
     port: process.env.PORT || 5000,
+    appTitle: '数字仪表盘-指数项目',
+
 
     // Available themes:
     // + bordeau
