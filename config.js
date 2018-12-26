@@ -56,19 +56,19 @@ var config = {
                     type: 'iframe.iframe',
                     title: '全国指数项目分布图',
                     url: 'https://indexmap.herokuapp.com',
-                    columns: 1, rows: 2,
+                    columns: 2, rows: 3,
                     x: 0, y: 0
                 },
                 {
                   type: 'switch.widgets',
                   columns: 2, rows: 2,
-                  x: 1, y: 0,
+                  x: 2, y: 0,
                   duration: 8000,
                   widgets: [
                     {
                       type: 'iframe.iframe',
                       title: '中国·义乌小商品指数',
-                      url: 'http://www.ywindex.com'
+                      url: 'www.ywindex.com/cisweb/'
                     },
                     {
                       type: 'iframe.iframe',
