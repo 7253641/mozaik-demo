@@ -56,13 +56,13 @@ var config = {
                     type: 'iframe.iframe',
                     title: '全国指数项目分布图',
                     url: 'https://indexmap.herokuapp.com',
-                    columns: 2, rows: 3,
+                    columns: 1, rows: 2,
                     x: 0, y: 0
                 },
                 {
                   type: 'switch.widgets',
                   columns: 2, rows: 2,
-                  x: 2, y: 0,
+                  x: 1, y: 0,
                   duration: 8000,
                   widgets: [
                     {
