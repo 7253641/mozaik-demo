@@ -103,7 +103,7 @@ var config = {
                     {
                       type: 'iframe.iframe',
                       title: '浙江省菜篮子指数',
-                      url: 'zs.zjpi.gov.cn/market/index/cailanzi',
+                      url: 'http://zs.zjpi.gov.cn/market/index/cailanzi',
                     },
                     {
                       type: 'iframe.iframe',
@@ -134,12 +134,10 @@ var config = {
                       type: 'iframe.iframe',
                       title: '中国·成都中药材指数',
                       url: 'http://www.ysindex.com',
-                    }
+                    },
                   ]
-
-
-
               },
+
                 // {
                 //   type: 'image',
                 //   url: 'https://picsum.photos/200/300/?random',
@@ -170,7 +168,14 @@ var config = {
                 //     repository: 'mozaik',
                 //     columns: 2, rows: 1,
                 //     x: 1, y: 1
-                // },
+                {
+                  type: 'iframe.iframe',
+                  title: '中国',
+                  url: 'http://www.baidu.com',
+                  columns: 1, rows: 1,
+                  x: 0, y: 2
+                  // columns: 1, rows: 1, x: 0, y: 0
+                },
                 {
                     type: 'time.clock',
                     columns: 1, rows: 1,
@@ -190,13 +195,7 @@ var config = {
                 //     columns: 1, rows: 2,
                 //     x: 3, y: 1
                 // },
-                // {
-                //     type: 'travis.build_histogram',
-                //     owner: 'plouc',
-                //     repository: 'go-gitlab-client',
-                //     columns: 2, rows: 1,
-                //     x: 1, y: 2
-                // },
+
                 // {
                 //     type: 'github.status',
                 //     columns: 1, rows: 1,

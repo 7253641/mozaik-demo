@@ -22,6 +22,7 @@
     "gulp": "^3.9.0",
     "lodash": "^3.10.0",
     "mozaik": "1.4.4",
+    "mozaik-ext-embed": "^0.2.1",
     "mozaik-ext-github": "1.2.2",
     "mozaik-ext-iframe": "^1.0.6",
     "mozaik-ext-switch": "^1.0.0",
