@@ -168,6 +168,7 @@ var config = {
                 //     repository: 'mozaik',
                 //     columns: 2, rows: 1,
                 //     x: 1, y: 1
+
                 {
                   type: 'iframe.iframe',
                   title: '中国',
@@ -175,6 +176,13 @@ var config = {
                   columns: 1, rows: 1,
                   x: 0, y: 2
                   // columns: 1, rows: 1, x: 0, y: 0
+                },
+                {
+                  type: 'embed.markup',
+                  title: 'Live feed',
+                  content: '<iframe src="http://livefeed.com/"></iframe>',
+                  columns: 2, rows: 1,
+                  x: 1, y: 2
                 },
                 {
                     type: 'time.clock',
