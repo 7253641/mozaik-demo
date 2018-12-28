@@ -25,6 +25,7 @@
     "mozaik-ext-embed": "^0.2.1",
     "mozaik-ext-github": "1.2.2",
     "mozaik-ext-iframe": "^1.0.6",
+    "mozaik-ext-image": "^0.4.0",
     "mozaik-ext-switch": "^1.0.0",
     "mozaik-ext-time": "1.1.0",
     "mozaik-ext-travis": "1.1.0",

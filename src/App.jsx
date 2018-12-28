@@ -6,6 +6,7 @@ import time    from 'mozaik-ext-time';
 import iframe  from 'mozaik-ext-iframe';
 import switcher from 'mozaik-ext-switch';
 import embed from 'mozaik-ext-embed';
+import image from 'mozaik-ext-image';
 
 
 const MozaikComponent = Mozaik.Component.Mozaik;
@@ -19,6 +20,7 @@ Mozaik.Registry.addExtensions({
     iframe,
     switch: switcher,
     embed,
+    image,
 });
 
 React.render(<MozaikComponent/>, document.getElementById('mozaik'));

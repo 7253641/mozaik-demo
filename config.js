@@ -69,6 +69,7 @@ var config = {
                       title: '中国·柯桥纺织指数',
                       url: 'http://zs.zjpi.gov.cn/market/index/keqiao',
                     },
+
                     // {
                     //   type: 'iframe.iframe',
                     //   title: '中国·海宁皮革指数',
@@ -130,7 +131,7 @@ var config = {
                     //   url: 'http://www.ysindex.com',
                     // }
                   ]
-              }
+              },
               // {
               //     type: 'embed.markup',
               //     title: 'Live feed',
@@ -145,6 +146,24 @@ var config = {
               //   columns: 1, rows: 1,
               //   x: 3, y: 1,
               // }
+              {
+                type: 'image.image',
+                title: 'My webcam',
+                url: 'https://picsum.photos/200/300/?random',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center -7vh',
+                // // Refresh every 30s
+                refreshInterval: 300,
+                columns: 1, rows: 1,
+                x: 3, y: 1
+              },
+              {
+                type: 'iframe.iframe',
+                title: '中国·中关村电子信息产品指数',
+                url: 'http://www.zgcindex.org',
+                columns: 1, rows: 1,
+                x: 3, y: 0
+              }
               // {
               //       type: 'time.clock',
               //       columns: 1, rows: 1,
