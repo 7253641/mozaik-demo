@@ -160,7 +160,7 @@ var config = {
               {
                 type: 'iframe.iframe',
                 title: '中国·中关村电子信息产品指数',
-                url: 'http://www.zgcindex.org',
+                url: 'https://picsum.photos/200/300/?random',
                 columns: 1, rows: 1,
                 x: 3, y: 0
               }
