@@ -33,7 +33,7 @@ var config = {
     },
 
     // define duration between each dashboard rotation (ms)
-    rotationDuration: 160000,
+    // rotationDuration: 160000,
 
     // define the interval used by Mozaïk Bus to call registered APIs
     apisPollInterval: 15000,
@@ -58,17 +58,19 @@ var config = {
                   type: 'switch.widgets',
                   columns: 2, rows: 3,
                   x: 1, y: 0,
-                  duration: 8000,
+                  duration: 10000,
                   widgets: [
                     {
                       type: 'iframe.iframe',
                       title: '中国·义乌小商品指数',
                       url: 'http://www.ywindex.com'
+                      // url: 'http://zs.zjpi.gov.cn/market/index/yiwu'
                     },
                     {
                       type: 'iframe.iframe',
                       title: '中国·柯桥纺织指数',
-                      url: 'http://zs.zjpi.gov.cn/market/index/keqiao',
+                      // url: 'http://zs.zjpi.gov.cn/market/index/keqiao',
+                      url: 'http://www.kqindex.cn'
                     },
 
                     {
@@ -85,11 +87,12 @@ var config = {
                       type: 'iframe.iframe',
                       title: '中国·永康五金指数',
                       url: 'http://www.ykindex.com',
+                      // url: 'http://zs.zjpi.gov.cn/market/index/yongkang'
                     },
                     {
                       type: 'iframe.iframe',
                       title: '中国·四季青服装指数',
-                      url: 'zs.zjpi.gov.cn/market/index/shijiqin',
+                      url: 'http://zs.zjpi.gov.cn/market/index/shijiqin',
                     },
                     {
                       type: 'iframe.iframe',
