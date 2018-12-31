@@ -76,11 +76,11 @@ var config = {
                       title: '中国·海宁皮革指数',
                       url: 'http://www.hnindex.com',
                     },
-                    // {
-                    //   type: 'iframe.iframe',
-                    //   title: '中国·舟山水产品指数',
-                    //   url: 'http://www.scpzs.com/',
-                    // },
+                    {
+                      type: 'iframe.iframe',
+                      title: '中国·舟山水产品指数',
+                      url: 'http://www.scpzs.com/',
+                    },
                     // {
                     //   type: 'iframe.iframe',
                     //   title: '中国·永康五金指数',
