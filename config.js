@@ -50,7 +50,7 @@ var config = {
                     type: 'iframe.iframe',
                     title: '全国指数项目分布图',
                     // url: 'https://indexmap.herokuapp.com',
-                    url: 'http://127.0.0.1:3000'
+                    url: 'http://127.0.0.1:3000',
                     columns: 1, rows: 2,
                     x: 0, y: 0
                 },
