@@ -62,13 +62,13 @@ var config = {
                   widgets: [
                     {
                       type: 'iframe.iframe',
-                      title: '中国·义乌小商品指数',
+                      // title: '中国·义乌小商品指数',
                       url: 'http://www.ywindex.com'
                       // url: 'http://zs.zjpi.gov.cn/market/index/yiwu'
                     },
                     {
                       type: 'iframe.iframe',
-                      title: '中国·柯桥纺织指数',
+                      // title: '中国·柯桥纺织指数',
                       // url: 'http://zs.zjpi.gov.cn/market/index/keqiao',
                       url: 'http://www.kqindex.cn'
                     },
