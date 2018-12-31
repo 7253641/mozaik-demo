@@ -70,11 +70,11 @@ var config = {
                       url: 'http://zs.zjpi.gov.cn/market/index/keqiao',
                     },
 
-                    // {
-                    //   type: 'iframe.iframe',
-                    //   title: '中国·海宁皮革指数',
-                    //   url: 'http://www.hnindex.com',
-                    // },
+                    {
+                      type: 'iframe.iframe',
+                      title: '中国·海宁皮革指数',
+                      url: 'http://www.hnindex.com',
+                    },
                     // {
                     //   type: 'iframe.iframe',
                     //   title: '中国·舟山水产品指数',
