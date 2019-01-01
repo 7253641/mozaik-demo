@@ -7,6 +7,7 @@ import iframe  from 'mozaik-ext-iframe';
 import switcher from 'mozaik-ext-switch';
 import embed from 'mozaik-ext-embed';
 import image from 'mozaik-ext-image';
+import charts  from './chart/ui';
 
 
 const MozaikComponent = Mozaik.Component.Mozaik;
@@ -21,6 +22,7 @@ Mozaik.Registry.addExtensions({
     switch: switcher,
     embed,
     image,
+    charts,
 });
 
 React.render(<MozaikComponent/>, document.getElementById('mozaik'));

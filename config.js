@@ -29,7 +29,8 @@ var config = {
                 user:     'me',
                 password: 'me'
             }
-        }
+        },
+
     },
 
     // define duration between each dashboard rotation (ms)
@@ -56,7 +57,7 @@ var config = {
                 },
                 {
                   type: 'switch.widgets',
-                  columns: 2, rows: 3,
+                  columns: 2, rows: 2,
                   x: 1, y: 0,
                   duration: 10000,
                   widgets: [
@@ -151,23 +152,30 @@ var config = {
               //   x: 3, y: 1,
               // }
               {
-                type: 'image.image',
-                title: 'My webcam',
-                url: 'https://picsum.photos/200/300/?random',
-                backgroundSize: 'cover',
-                backgroundPosition: 'center -7vh',
-                // // Refresh every 30s
-                refreshInterval: 300,
+                type: 'charts.bar_chart_widget',
+                title:'各市项目数量对比图',
                 columns: 1, rows: 1,
-                x: 3, y: 1
+                data: [{x: '北京', y: 1},{x: '杭州', y: 4},{x: '义乌', y: 1},{x: '柯桥', y: 1},{x: '海宁', y: 1},{x: '舟山', y: 1},{x: '永康', y: 1},{x: '成都', y: 1},{x: '临沂', y: 1},{x: '水头', y: 1},{x: '金乡', y: 1},{x: '寿光', y: 1}],
+                x: 0, y: 2,
               },
-              {
-                type: 'iframe.iframe',
-                title: '中国·中关村电子信息产品指数',
-                url: 'https://picsum.photos/200/300/?random',
-                columns: 1, rows: 1,
-                x: 3, y: 0
-              }
+              // {
+              //   type: 'image.image',
+              //   title: 'My webcam',
+              //   url: 'https://picsum.photos/200/300/?random',
+              //   backgroundSize: 'cover',
+              //   backgroundPosition: 'center -7vh',
+              //   // // Refresh every 30s
+              //   refreshInterval: 300,
+              //   columns: 1, rows: 1,
+              //   x: 3, y: 1
+              // },
+              // {
+              //   type: 'iframe.iframe',
+              //   title: '中国·中关村电子信息产品指数',
+              //   url: 'https://picsum.photos/200/300/?random',
+              //   columns: 1, rows: 1,
+              //   x: 3, y: 1
+              // }
               // {
               //       type: 'time.clock',
               //       columns: 1, rows: 1,
