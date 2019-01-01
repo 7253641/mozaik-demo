@@ -52,12 +52,12 @@ var config = {
                     title: '全国指数项目分布图',
                     // url: 'https://indexmap.herokuapp.com',
                     url: 'http://47.91.179.211:3000',
-                    columns: 1, rows: 3,
+                    columns: 1, rows: 2,
                     x: 0, y: 0
                 },
                 {
                   type: 'switch.widgets',
-                  columns: 2, rows: 2,
+                  columns: 2, rows: 3,
                   x: 1, y: 0,
                   duration: 10000,
                   widgets: [
