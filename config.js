@@ -100,7 +100,6 @@ var config = {
                     // {
                     //   type: 'iframe.iframe',
                     //   title: '浙江省菜篮子指数',
-                    //   url: 'http://zs.zjpi.gov.cn/market/index/cailanzi'
                     // },
                     {
                       type: 'iframe.iframe',
