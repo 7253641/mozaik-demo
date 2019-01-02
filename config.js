@@ -87,7 +87,6 @@ var config = {
                       type: 'iframe.iframe',
                       title: '中国·永康五金指数',
                       url: 'http://www.ykindex.com'
-                      // url: 'http://zs.zjpi.gov.cn/market/index/yongkang'
                     },
                     // {
                     //   type: 'iframe.iframe',
