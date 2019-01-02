@@ -104,10 +104,6 @@ var config = {
                       title: '中国·金恒德汽车用品价格指数',
                       url: 'http://www.jhdindex.com'
                     },
-                    // {
-                    //   type: 'iframe.iframe',
-                    //   title: '浙江省菜篮子指数',
-                    // },
                     {
                       type: 'iframe.iframe',
                       title: '中国·中关村电子信息产品指数',
@@ -154,12 +150,12 @@ var config = {
                   {
                     type: 'embed.markup',
                     title: '陈骥',
-                    content: '<div style="width:95%;margin:0 auto"><p style="text-indent:24px;">经济学博士，教授，硕士生导师。教育部人文社会科学重点研究基地——浙江工商大学现代商贸研究中心、浙江省2011协同创新中心——“现代商贸流通体系建设协同创新中心”、浙江财经大学经济与社会发展研究院兼职研究人员。主要从事政府统计制度、商贸流通统计、电子商务统计监测、大数据管理决策等方面的研究。多项成果获教育部、国家统计局、浙江省统计局等部门奖励。</p></div>',
+                    content: '<div style="width:95%;margin:0 auto"><p style="text-indent:24px;">经济学博士，教授，硕士生导师。教育部人文社会科学重点研究基地——浙江工商大学现代商贸研究中心、浙江省2011协同创新中心——“现代商贸流通体系建设协同创新中心”、浙江财经大学经济与社会发展研究院兼职研究人员。主要从事政府统计制度、商贸流通统计、电子商务统计监测、大数据管理决策等方面的研究。多项成果获教育部、国家统计局等部门奖励。</p></div>',
                   },
                   {
                     type: 'embed.markup',
                     title: '张涛',
-                    content: '<div style="width:95%;margin:0 auto"><p style="text-indent:24px;">软件工程硕士，工程师。曾先后供职于浙大网新科技股份有限公司、杭州信雅达系统工程股份有限公司、UT斯达康（中国）有限公司、中国电力科学研究院软件工程实验室。多年来一直从事软件研发及技术管理工作。先后获得过Microsoft Architects 2000、BEA WLS-D、IBM WSBCC、Raytron SDP&M、Cisco CCNP、Cisco ICSG等认证。2003年入选杭州市“131”中青年人才培养计划。</p></div>',
+                    content: '<div style="width:95%;margin:0 auto"><p style="text-indent:24px;">软件工程硕士，工程师。曾先后供职于浙大网新科技股份有限公司、杭州信雅达系统工程股份有限公司、UT斯达康（中国）有限公司、中国电力科学研究院软件工程实验室。先后获得过Microsoft Architects 2000、BEA WLS-D、IBM WSBCC、Raytron SDP&M、Cisco CCNP、Cisco ICSG等认证。2003年入选杭州市“131”中青年人才培养计划。</p></div>',
                   },
                 ]
               },
