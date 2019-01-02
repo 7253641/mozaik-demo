@@ -174,7 +174,7 @@ var config = {
               },
               {
                 type: 'iframe.iframe',
-                title: '完成项目列表',
+                title: '项目案例',
                 // url: 'https://picsum.photos/200/300/?random',
                 columns: 1, rows: 2,
                 x: 3, y: 1
