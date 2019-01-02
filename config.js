@@ -91,7 +91,6 @@ var config = {
                     // {
                     //   type: 'iframe.iframe',
                     //   title: '中国·四季青服装指数',
-                    //   url: 'http://zs.zjpi.gov.cn/market/index/shijiqin'
                     // },
                     {
                       type: 'iframe.iframe',
