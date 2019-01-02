@@ -176,7 +176,6 @@ var config = {
                 type: 'iframe.iframe',
                 title: '已完成项目列表',
                 // url: 'https://picsum.photos/200/300/?random',
-                // href: 'http://www.ywindex.com',
                 columns: 1, rows: 2,
                 x: 3, y: 1
               }
