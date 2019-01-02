@@ -56,6 +56,13 @@ var config = {
                     x: 0, y: 0
                 },
                 {
+                  type: 'charts.bar_chart_widget',
+                  title:'各市项目数量对比图',
+                  columns: 1, rows: 1,
+                  data: [{x: '北京', y: 1},{x: '杭州', y: 4},{x: '金华', y: 2},{x: '绍兴', y: 1},{x: '嘉兴', y: 1},{x: '舟山', y: 1},{x: '台州', y: 1},{x: '成都', y: 1},{x: '临沂', y: 1},{x: '济宁', y: 1},{x: '潍坊', y: 2},{x: '泉州', y: 1}],
+                  x: 0, y: 2,
+                },
+                {
                   type: 'switch.widgets',
                   columns: 2, rows: 3,
                   x: 1, y: 0,
@@ -133,13 +140,56 @@ var config = {
                     },
                   ]
               },
-              // {
-              //     type: 'embed.markup',
-              //     title: 'Live feed',
-              //     content: '<iframe src="http://livefeed.com/"></iframe>',
-              //     columns: 2, rows: 1,
-              //     x: 1, y: 2
-              // },
+              {
+                type: 'switch.widgets',
+                columns: 1, rows: 1,
+                x: 3, y: 0,
+                duration: 8000,
+                widgets: [
+                  {
+                    type: 'embed.markup',
+                    title: '苏为华',
+                    content: '<div style="width:95%;margin:0 auto"><p style="text-indent:24px;">经济学博士，教授，博士生导师，浙江工商大学副校长。享受国务院政府特殊津贴，原国内贸易部突出贡献专家，浙江省高校中青年学科带头人，浙江省151人才工程第一层次人选。目前主要从事政府统计体制改革、指数理论与应用、评估理论与方法、数据挖掘与决策等方面的研究工作。</p></div>',
+                  },
+                  {
+                    type: 'embed.markup',
+                    title: '陈骥',
+                    content: '<div style="width:95%;margin:0 auto"><p style="text-indent:24px;">经济学博士，教授，硕士生导师。教育部人文社会科学重点研究基地——浙江工商大学现代商贸研究中心、浙江省2011协同创新中心——“现代商贸流通体系建设协同创新中心”、浙江财经大学经济与社会发展研究院兼职研究人员。主要从事政府统计制度、商贸流通统计、电子商务统计监测、大数据管理决策等方面的研究。多项成果获教育部、国家统计局、浙江省统计局等部门奖励。</p></div>',
+                  },
+                  {
+                    type: 'embed.markup',
+                    title: '张涛',
+                    content: '<div style="width:95%;margin:0 auto"><p style="text-indent:24px;">软件工程硕士，工程师。曾先后供职于浙大网新科技股份有限公司、杭州信雅达系统工程股份有限公司、UT斯达康（中国）有限公司、中国电力科学研究院软件工程实验室。多年来一直从事软件研发及技术管理工作。先后获得过Microsoft Architects 2000、BEA WLS-D、IBM WSBCC、Raytron SDP&M、Cisco CCNP、Cisco ICSG等认证。2003年入选杭州市“131”中青年人才培养计划。</p></div>',
+                  },
+                ]
+              },
+              {
+                type: 'embed.markup',
+                title: '项目案例',
+                content: '<div><ul> \
+                  <li><a href="http://www.ywindex.com" target="_blank">中国·义乌小商品指数</a></li> \
+                  <li><a href="http://www.kqindex.cn" target="_blank">中国·柯桥纺织指数</a></li> \
+                  <li><a href="http://www.hnindex.com" target="_blank">中国·海宁皮革指数</a></li> \
+                  <li><a href="http://www.scpzs.com/" target="_blank">中国·舟山水产品指数</a></li> \
+                  <li><a href="http://www.ykindex.com" target="_blank">中国·永康五金指数</a></li> \
+                  <li><a>永康市循环经济发展指数</a></li> \
+                  <li><a>永康市统计直报系统</a></li> \
+                  <li><a>泰隆银行小微企业指数</a></li> \
+                  <li><a href="http://zs.zjpi.gov.cn/market/index/shijiqin" target="_blank">中国·四季青服装指数</a></li> \
+                  <li><a href="http://www.jhdindex.com" target="_blank">中国·金恒德汽车用品价格指数</a></li> \
+                  <li><a href="http://zs.zjpi.gov.cn/market/index/cailanzi">浙江省菜篮子指数</a></li> \
+                  <li><a>杭州市科委发展指数</a></li> \
+                  <li><a href="http://www.zgcindex.org" target="_blank">中国·中关村电子信息产品指数</a></li> \
+                  <li><a href="http://www.lyscprice.com" target="_blank">中国·临沂商城价格指数</a></li> \
+                  <li><a href="http://www.jxdsi.com" target="_blank">中国·金乡大蒜指数</a></li> \
+                  <li><a href="http://www.sgvindex.com" target="_blank">中国·寿光蔬菜指数</a></li> \
+                  <li><a>中国·昌邑生姜指数</a></li> \
+                  <li><a href="http://www.ysindex.com" target="_blank">中国·成都中药材指数</a></li> \
+                  <li><a>中国·水头石材指数</a></li> \
+                  </ul></div>',
+                columns: 1, rows: 2,
+                x: 3, y: 1
+              }
               // {
               //   type: 'ExtJson.JsonKeys',
               //   title: 'test',
@@ -147,13 +197,8 @@ var config = {
               //   columns: 1, rows: 1,
               //   x: 3, y: 1,
               // }
-              {
-                type: 'charts.bar_chart_widget',
-                title:'各市项目数量对比图',
-                columns: 1, rows: 1,
-                data: [{x: '北京', y: 1},{x: '杭州', y: 4},{x: '金华', y: 2},{x: '绍兴', y: 1},{x: '嘉兴', y: 1},{x: '舟山', y: 1},{x: '台州', y: 1},{x: '成都', y: 1},{x: '临沂', y: 1},{x: '济宁', y: 1},{x: '潍坊', y: 2},{x: '泉州', y: 1}],
-                x: 0, y: 2,
-              },
+
+
               // {
               //   type: 'image.image',
               //   title: 'My webcam',
@@ -165,20 +210,8 @@ var config = {
               //   columns: 1, rows: 1,
               //   x: 3, y: 1
               // },
-              {
-                type: 'iframe.iframe',
-                title: '团队介绍',
-                // url: 'https://picsum.photos/200/300/?random',
-                columns: 1, rows: 1,
-                x: 3, y: 0
-              },
-              {
-                type: 'iframe.iframe',
-                title: '项目案例',
-                // url: 'https://picsum.photos/200/300/?random',
-                columns: 1, rows: 2,
-                x: 3, y: 1
-              }
+
+
               // {
               //       type: 'time.clock',
               //       columns: 1, rows: 1,
