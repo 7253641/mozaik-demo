@@ -169,7 +169,6 @@ var config = {
                 type: 'iframe.iframe',
                 title: '团队介绍',
                 // url: 'https://picsum.photos/200/300/?random',
-                // href: 'http://www.ywindex.com',
                 columns: 1, rows: 1,
                 x: 3, y: 0
               },
