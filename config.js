@@ -16,8 +16,8 @@ var config = {
     // + night-blue
     // + snow
     // + yellow
-    theme: 'night-blue',
-
+    // theme: 'night-blue',
+    theme: 'my-themes',
     // clients configs
     api: {
         aws: {
@@ -89,21 +89,21 @@ var config = {
                       url: 'http://www.ykindex.com'
                       // url: 'http://zs.zjpi.gov.cn/market/index/yongkang'
                     },
-                    {
-                      type: 'iframe.iframe',
-                      title: '中国·四季青服装指数',
-                      url: 'http://zs.zjpi.gov.cn/market/index/shijiqin'
-                    },
+                    // {
+                    //   type: 'iframe.iframe',
+                    //   title: '中国·四季青服装指数',
+                    //   url: 'http://zs.zjpi.gov.cn/market/index/shijiqin'
+                    // },
                     {
                       type: 'iframe.iframe',
                       title: '中国·金恒德汽车用品价格指数',
                       url: 'http://www.jhdindex.com'
                     },
-                    {
-                      type: 'iframe.iframe',
-                      title: '浙江省菜篮子指数',
-                      url: 'http://zs.zjpi.gov.cn/market/index/cailanzi'
-                    },
+                    // {
+                    //   type: 'iframe.iframe',
+                    //   title: '浙江省菜篮子指数',
+                    //   url: 'http://zs.zjpi.gov.cn/market/index/cailanzi'
+                    // },
                     {
                       type: 'iframe.iframe',
                       title: '中国·中关村电子信息产品指数',
@@ -124,11 +124,11 @@ var config = {
                       title: '中国·寿光蔬菜指数',
                       url: 'http://www.sgvindex.com'
                     },
-                    {
-                      type: 'iframe.iframe',
-                      title: '中国·昌邑生姜指数',
-                      url: '',
-                    },
+                    // {
+                    //   type: 'iframe.iframe',
+                    //   title: '中国·昌邑生姜指数',
+                    //   url: '',
+                    // },
                     {
                       type: 'iframe.iframe',
                       title: '中国·成都中药材指数',
