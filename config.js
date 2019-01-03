@@ -69,9 +69,12 @@ var config = {
                   duration: 10000,
                   widgets: [
                     {
-                      type: 'embed.markup',
-                      title: '${base}',
-                      content: '<img src="..images/www_ysindex_com.png"/>'
+                      type: 'image.image',
+                      title: '中国·义乌小商品指数',
+                      url: 'https://github.com/7253641/mozaik-demo/raw/demo/images/www_ysindex_com.png',
+                      // backgroundSize: 'cover',
+                      backgroundSize: 'contain',
+                      backgroundPosition: 'center -7vh',
                     },
 
                     {
