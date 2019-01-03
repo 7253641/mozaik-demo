@@ -72,8 +72,15 @@ var config = {
                       type: 'image.image',
                       title: '中国·义乌小商品指数',
                       url: 'https://github.com/7253641/mozaik-demo/raw/demo/images/www_ysindex_com.png',
-                      // backgroundSize: 'cover',
-                      backgroundSize: 'contain',
+                      backgroundSize: 'cover',
+                      backgroundPosition: 'center -7vh',
+                    },
+
+                    {
+                      type: 'image.image',
+                      title: '中国·柯桥纺织指数',
+                      url: 'https://github.com/7253641/mozaik-demo/raw/demo/images/www_ywindex_com.png',
+                      backgroundSize: 'cover',
                       backgroundPosition: 'center -7vh',
                     },
 
