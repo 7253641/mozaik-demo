@@ -69,6 +69,12 @@ var config = {
                   duration: 10000,
                   widgets: [
                     {
+                      type: 'embed.markup',
+                      title: '${base}',
+                      content: '<img src="..images/www_ysindex_com.png"/>'
+                    },
+
+                    {
                       type: 'iframe.iframe',
                       title: '中国·义乌小商品指数',
                       url: 'http://www.ywindex.com'

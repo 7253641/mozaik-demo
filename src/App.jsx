@@ -9,7 +9,6 @@ import embed from 'mozaik-ext-embed';
 import image from 'mozaik-ext-image';
 import charts  from './chart/ui';
 import iframe  from './iframe/ui';
-
 const MozaikComponent = Mozaik.Component.Mozaik;
 const ConfigActions   = Mozaik.Actions.Config;
 
