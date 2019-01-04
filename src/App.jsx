@@ -5,10 +5,11 @@ import travis  from 'mozaik-ext-travis';
 import time    from 'mozaik-ext-time';
 // import iframe  from 'mozaik-ext-iframe';
 import switcher from 'mozaik-ext-switch';
-import embed from 'mozaik-ext-embed';
+// import embed from 'mozaik-ext-embed';
 import image from 'mozaik-ext-image';
 import charts  from './chart/ui';
 import iframe  from './iframe/ui';
+import embed from './embed/ui';
 const MozaikComponent = Mozaik.Component.Mozaik;
 const ConfigActions   = Mozaik.Actions.Config;
 
