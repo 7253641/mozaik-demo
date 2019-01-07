@@ -191,10 +191,16 @@ var config = {
                       title: '中国·永康五金指数',
                       url: 'http://www.ykindex.com'
                     },
-                    // {
-                    //   type: 'iframe.iframe',
-                    //   title: '中国·四季青服装指数',
-                    // },
+                    {
+                      type: 'iframe.iframe',
+                      title: '永康市循环经济发展指数',
+                      url: 'http://115.236.46.126:5000/'
+                    },
+                    {
+                      type: 'iframe.iframe',
+                      title: '永康市统计数据云平台',
+                      url: 'http://115.236.46.126:8000/accounts/login'
+                    },
                     {
                       type: 'iframe.iframe',
                       title: '中国·金恒德汽车用品价格指数',
@@ -220,11 +226,6 @@ var config = {
                       title: '中国·寿光蔬菜指数',
                       url: 'http://www.sgvindex.com'
                     },
-                    // {
-                    //   type: 'iframe.iframe',
-                    //   title: '中国·昌邑生姜指数',
-                    //   url: '',
-                    // },
                     {
                       type: 'iframe.iframe',
                       title: '中国·成都中药材指数',
@@ -268,51 +269,23 @@ var config = {
                   <li><a href="http://www.hnindex.com" target="_blank">中国·海宁皮革指数</a></li> \
                   <li><a href="http://www.scpzs.com/" target="_blank">中国·舟山水产品指数</a></li> \
                   <li><a href="http://www.ykindex.com" target="_blank">中国·永康五金指数</a></li> \
-                  <li><a>永康市循环经济发展指数</a></li> \
-                  <li><a>永康市统计直报系统</a></li> \
-                  <li><a>泰隆银行小微企业指数</a></li> \
+                  <li><a href="http://115.236.46.126:5000/" target="_blank">永康市循环经济发展指数</a></li> \
+                  <li><a href="http://115.236.46.126:8000/accounts/login" target="_blank">永康市统计数据云平台</a></li> \
                   <li><a href="http://zs.zjpi.gov.cn/market/index/shijiqin" target="_blank">中国·四季青服装指数</a></li> \
                   <li><a href="http://www.jhdindex.com" target="_blank">中国·金恒德汽车用品价格指数</a></li> \
-                  <li><a href="http://zs.zjpi.gov.cn/market/index/cailanzi">浙江省菜篮子指数</a></li> \
-                  <li><a>杭州市科委发展指数</a></li> \
                   <li><a href="http://www.zgcindex.org" target="_blank">中国·中关村电子信息产品指数</a></li> \
                   <li><a href="http://www.lyscprice.com" target="_blank">中国·临沂商城价格指数</a></li> \
                   <li><a href="http://www.jxdsi.com" target="_blank">中国·金乡大蒜指数</a></li> \
                   <li><a href="http://www.sgvindex.com" target="_blank">中国·寿光蔬菜指数</a></li> \
-                  <li><a>中国·昌邑生姜指数</a></li> \
                   <li><a href="http://www.ysindex.com" target="_blank">中国·成都中药材指数</a></li> \
+                  <li><a>中国·昌邑生姜指数</a></li> \
                   <li><a>中国·水头石材指数</a></li> \
+                  <li><a>泰隆银行小微企业指数</a></li> \
+                  <li><a>杭州市科委发展指数</a></li> \
                   </ul></div>',
-                columns: 1, rows: 2,
-                x: 3, y: 1
-              }
-              // {
-              //   type: 'ExtJson.JsonKeys',
-              //   title: 'test',
-              //   url: '',
-              //   columns: 1, rows: 1,
-              //   x: 3, y: 1,
-              // }
-
-
-              // {
-              //   type: 'image.image',
-              //   title: 'My webcam',
-              //   url: 'https://picsum.photos/200/300/?random',
-              //   backgroundSize: 'cover',
-              //   backgroundPosition: 'center -7vh',
-              //   // // Refresh every 30s
-              //   refreshInterval: 300,
-              //   columns: 1, rows: 1,
-              //   x: 3, y: 1
-              // },
-
-
-              // {
-              //       type: 'time.clock',
-              //       columns: 1, rows: 1,
-              //       x: 3, y: 0
-              // }
+                  columns: 1, rows: 2,
+                  x: 3, y: 1,
+              },
             ]
         }
       ]
