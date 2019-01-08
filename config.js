@@ -206,21 +206,21 @@ var config = {
                       title: '永康市循环经济发展指数',
                       url: 'http://115.236.46.126:5000'
                     },
-                    {
-                      type: 'iframe.iframe',
-                      title: '永康市统计数据云平台',
-                      url: 'http://115.236.46.126:8000'
-                    },
-                    {
-                      type: 'iframe.iframe',
-                      title: '永康市统计管理云平台',
-                      url: 'http://115.236.46.126:4000 '
-                    },
-                    {
-                      type: 'iframe.iframe',
-                      title: '中国·金恒德汽车用品价格指数',
-                      url: 'http://www.jhdindex.com'
-                    },
+                    // {
+                    //   type: 'iframe.iframe',
+                    //   title: '永康市统计数据云平台',
+                    //   url: 'http://115.236.46.126:8000'
+                    // },
+                    // {
+                    //   type: 'iframe.iframe',
+                    //   title: '永康市统计管理云平台',
+                    //   url: 'http://115.236.46.126:4000 '
+                    // },
+                    // {
+                    //   type: 'iframe.iframe',
+                    //   title: '中国·金恒德汽车用品价格指数',
+                    //   url: 'http://www.jhdindex.com'
+                    // },
                     {
                       type: 'iframe.iframe',
                       title: '中国·中关村电子信息产品指数',
