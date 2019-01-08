@@ -169,7 +169,7 @@ var config = {
                     {
                       type: 'iframe.iframe',
                       title: '中华人民共和国商务部-商务预报',
-                      url: 'http://cif.mofcom.gov.cn/cif/html/'
+                      url: 'http://cif.mofcom.gov.cn/cif/html/indexCenter/index.html?10300'
                     },
                     {
                       type: 'iframe.iframe',
@@ -279,7 +279,7 @@ var config = {
                 title: '项目案例',
                 fa: 'fa fa-link',
                 content: '<div><ul> \
-                  <li><a href="http://cif.mofcom.gov.cn/cif/html/" target="_blank">中华人民共和国商务部-商务预报</a></li> \
+                  <li><a href="http://cif.mofcom.gov.cn/cif/html/indexCenter/index.html?10300" target="_blank">中华人民共和国商务部-商务预报</a></li> \
                   <li><a href="http://jgjc.ndrc.gov.cn/Detail.aspx?newsId=6390&TId=744" target="_blank">国家发改委-价格监测中心</a></li> \
                   <li><a href="http://www.ywindex.com" target="_blank">中国·义乌小商品指数</a></li> \
                   <li><a href="http://www.kqindex.cn" target="_blank">中国·柯桥纺织指数</a></li> \
