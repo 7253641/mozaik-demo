@@ -168,6 +168,16 @@ var config = {
                     // },
                     {
                       type: 'iframe.iframe',
+                      title: '中华人民共和国商务部-商务预报',
+                      url: 'http://cif.mofcom.gov.cn/cif/html/'
+                    },
+                    {
+                      type: 'iframe.iframe',
+                      title: '国家发改委-价格监测中心',
+                      url: 'http://jgjc.ndrc.gov.cn/Detail.aspx?newsId=6390&TId=744'
+                    },
+                    {
+                      type: 'iframe.iframe',
                       title: '中国·义乌小商品指数',
                       url: 'http://www.ywindex.com'
                     },
@@ -181,11 +191,11 @@ var config = {
                       title: '中国·海宁皮革指数',
                       url: 'http://www.hnindex.com'
                     },
-                    {
-                      type: 'iframe.iframe',
-                      title: '中国·舟山水产品指数',
-                      url: 'http://www.scpzs.com/'
-                    },
+                    // {
+                    //   type: 'iframe.iframe',
+                    //   title: '中国·舟山水产品指数',
+                    //   url: 'http://www.scpzs.com'
+                    // },
                     {
                       type: 'iframe.iframe',
                       title: '中国·永康五金指数',
@@ -194,12 +204,17 @@ var config = {
                     {
                       type: 'iframe.iframe',
                       title: '永康市循环经济发展指数',
-                      url: 'http://115.236.46.126:5000/'
+                      url: 'http://115.236.46.126:5000'
                     },
                     {
                       type: 'iframe.iframe',
                       title: '永康市统计数据云平台',
-                      url: 'http://115.236.46.126:8000/accounts/login'
+                      url: 'http://115.236.46.126:8000'
+                    },
+                    {
+                      type: 'iframe.iframe',
+                      title: '永康市统计管理云平台',
+                      url: 'http://115.236.46.126:4000 '
                     },
                     {
                       type: 'iframe.iframe',
@@ -264,13 +279,16 @@ var config = {
                 title: '项目案例',
                 fa: 'fa fa-link',
                 content: '<div><ul> \
+                  <li><a href="http://cif.mofcom.gov.cn/cif/html/" target="_blank">中华人民共和国商务部-商务预报</a></li> \
+                  <li><a href="http://jgjc.ndrc.gov.cn/Detail.aspx?newsId=6390&TId=744" target="_blank">国家发改委-价格监测中心</a></li> \
                   <li><a href="http://www.ywindex.com" target="_blank">中国·义乌小商品指数</a></li> \
                   <li><a href="http://www.kqindex.cn" target="_blank">中国·柯桥纺织指数</a></li> \
                   <li><a href="http://www.hnindex.com" target="_blank">中国·海宁皮革指数</a></li> \
-                  <li><a href="http://www.scpzs.com/" target="_blank">中国·舟山水产品指数</a></li> \
+                  <li><a href="http://www.scpzs.com" target="_blank">中国·舟山水产品指数</a></li> \
                   <li><a href="http://www.ykindex.com" target="_blank">中国·永康五金指数</a></li> \
-                  <li><a href="http://115.236.46.126:5000/" target="_blank">永康市循环经济发展指数</a></li> \
-                  <li><a href="http://115.236.46.126:8000/accounts/login" target="_blank">永康市统计数据云平台</a></li> \
+                  <li><a href="http://115.236.46.126:5000" target="_blank">永康市循环经济发展指数</a></li> \
+                  <li><a href="http://115.236.46.126:8000" target="_blank">永康市统计数据云平台</a></li> \
+                  <li><a href="http://115.236.46.126:4000" target="_blank">永康市统计管理云平台</a></li> \
                   <li><a href="http://zs.zjpi.gov.cn/market/index/shijiqin" target="_blank">中国·四季青服装指数</a></li> \
                   <li><a href="http://www.jhdindex.com" target="_blank">中国·金恒德汽车用品价格指数</a></li> \
                   <li><a href="http://www.zgcindex.org" target="_blank">中国·中关村电子信息产品指数</a></li> \
