@@ -18,7 +18,8 @@ class BarChartWidget extends Component {
             xLegendPosition: 'right',
             yLegend: '数 量',
             yLegendPosition: 'top',
-            xPadding: 0,
+            xPadding: -20,
+            yPadding: 20,
             barColor: "#aadcff",
             barClass: function (d) {
                 return `result--${ builds }`;
