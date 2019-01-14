@@ -12,18 +12,19 @@ class BarChartWidget extends Component {
     render() {
         let builds = this.props.data;
         var title = this.props.title;
+
         let barChartOptions = {
             mode: 'stacked',
             xLegend: '城 市',
             xLegendPosition: 'right',
             yLegend: '数 量',
             yLegendPosition: 'top',
-            xPadding: 5,
+            xPadding: 0.1,
             margin: {
               top:    20,
               right:  20,
-              bottom: 20,
-              left:   20
+              bottom: 40,
+              left:   40
             },
             barColor: "#aadcff",
             barClass: function (d) {
